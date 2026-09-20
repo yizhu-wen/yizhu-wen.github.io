@@ -7,9 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-You can also find my work on my <u><a href="{{ site.author.googlescholar }}">Google Scholar profile</a></u>.
-
-
 Peer-reviewed
 ======
 
