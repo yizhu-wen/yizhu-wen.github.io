@@ -1,6 +1,6 @@
 # Yizhu Wen — Personal Homepage
 
-Source for [yizhu-wen.github.io/homepage](https://yizhu-wen.github.io/homepage), built with
+Source for [yizhu-wen.github.io](https://yizhu-wen.github.io), built with
 [Jekyll](https://jekyllrb.com/) on the [academicpages](https://github.com/academicpages/academicpages.github.io)
 template and published with GitHub Pages.
 
@@ -50,4 +50,4 @@ bundle install
 bundle exec jekyll serve --config _config.yml,_config.dev.yml
 ```
 
-Then open <http://localhost:4000>. `_config.dev.yml` drops `baseurl` so local links resolve.
+Then open <http://localhost:4000>.

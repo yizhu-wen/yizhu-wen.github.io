@@ -12,8 +12,8 @@ title_separator          : "-"
 name                     : &name "Yizhu Wen"
 description              : &description "Ph.D. student in Computer Science at Indiana University Bloomington, working on AI security."
 url                      : https://yizhu-wen.github.io # the base hostname & protocol for your site
-baseurl                  : "/homepage" # the subpath of your site, e.g. "/blog"
-repository               : "yizhu-wen/homepage"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "yizhu-wen/yizhu-wen.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160

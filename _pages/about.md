@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Science at **Indiana University Bloomington**, advised by [Prof. Hanqing Guo](https://hanqingguo.github.io) in the **ASPIRE Lab**. Before joining IU, I was a Ph.D. student in Electrical and Computer Engineering at the **University of Hawaiʻi at Mānoa**, also with Prof. Guo.
+I am a Ph.D. student in Computer Science at **Indiana University Bloomington**, advised by [Prof. Hanqing Guo](https://hanqingguo.github.io) in the **ASPIRE Lab**. Before joining IU, I was a Ph.D. student in Electrical and Computer Engineering at the University of Hawaiʻi at Mānoa, also with Prof. Guo.
 
 My research is on **AI security** — in particular the security of AI agents and retrieval-augmented generation (RAG) systems, data governance, and **audio watermarking**. I study adversarial attacks on these systems and build practical defenses for them.
 
