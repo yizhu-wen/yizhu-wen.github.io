@@ -14,7 +14,7 @@ My research is on **AI security** — in particular the security of AI agents an
 
 Before returning to research, I spent several years in industry as a data scientist and product manager, working on semiconductor yield analytics and forecasting systems.
 
-📧 [yizhuwenus@gmail.com](mailto:yizhuwenus@gmail.com) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=1aegp6sAAAAJ&hl=en) &nbsp;·&nbsp; [GitHub](https://github.com/yizhu-wen) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/yizhuwen) &nbsp;·&nbsp; [CV]({{ site.baseurl }}/cv/)
+📧 [yizhuwenus@gmail.com](mailto:yizhuwenus@gmail.com) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=1aegp6sAAAAJ&hl=en) &nbsp;·&nbsp; [GitHub](https://github.com/yizhu-wen) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/yizhuwen) &nbsp;·&nbsp; [CV]({{ site.baseurl }}/cv/) &nbsp;·&nbsp; [CV (PDF)]({{ site.baseurl }}/files/Yizhu_Wen_CV.pdf)
 
 News
 ======

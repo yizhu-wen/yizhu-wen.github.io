@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV]({{ site.baseurl }}/files/Yizhu_Wen_CV.docx)
+📄 [Download CV (PDF)]({{ site.baseurl }}/files/Yizhu_Wen_CV.pdf)
 
 Research Interests
 ======

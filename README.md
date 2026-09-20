@@ -13,7 +13,7 @@ template and published with GitHub Pages.
 | Publications page (grouping + intro) | `_pages/publications.md` |
 | One file per paper | `_publications/YYYY-MM-DD-slug.md` |
 | CV page | `_pages/cv.md` |
-| CV download | `files/Yizhu_Wen_CV.docx` |
+| CV download | `files/Yizhu_Wen_CV.pdf` |
 | Top nav | `_data/navigation.yml` |
 | Profile photo | `images/profile.png` |
 
