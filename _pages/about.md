@@ -12,7 +12,7 @@ I am a Ph.D. student in Computer Science at **Indiana University Bloomington**, 
 
 My research is on **AI security** — in particular the security of AI agents and retrieval-augmented generation (RAG) systems, data governance, and **audio watermarking**. I study adversarial attacks on these systems and build practical defenses for them.
 
-Before returning to research, I spent several years in industry as a data scientist and product manager, working on semiconductor yield analytics and forecasting systems.
+Before returning to research, I **spent 5 years in industry as a data scientist and product manager**, working on semiconductor yield analytics and forecasting systems.
 
 News
 ======
