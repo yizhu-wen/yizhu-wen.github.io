@@ -52,7 +52,7 @@ A full list is on the [Publications]({{ site.baseurl }}/publications/) page.
 
 **SoK: Is Audio Watermarking Robust to Removal Attacks?** [[arXiv](https://arxiv.org/abs/2503.19176)] [[Project](https://sokaudiowm.github.io/)] [[Code](https://github.com/yizhu-wen/sok)]  
 **Yizhu Wen**, Ashwin Innuganti, Aaron Bien Ramos, Hanqing Guo, Qiben Yan  
-*Under review, NDSS 2027*
+*Under review*
 
 **Position: Generative Engine Optimization Creates Underexamined Risks, Governance Must Target Concentration, Disclosure, and Academic Blind Spots** [[arXiv](https://arxiv.org/abs/2606.12439)] [[Poster](https://icml.cc/virtual/2026/poster/67185)] [[Code](https://github.com/yizhu-wen/Position-GEO)]  
 **Yizhu Wen**, Nan Zhang, Haohan Yuan, Xun Chen, Haopeng Zhang, Hanqing Guo  
