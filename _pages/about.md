@@ -32,7 +32,7 @@ Professional Experience
 ======
 * **Research Intern**, USC Information Sciences Institute, Marina Del Rey, CA — *Jun 2026 – Aug 2026*
 * **Data Scientist**, Joint Laboratory of Materials Science, Xi'an Jiaotong University – Shanghai Hongzhiwei — *Jan 2022 – Jul 2024*
-* **Product Manager**, YMTC FDC Team – Hongzhiwei, Wuhan — *Jan 2023 – Jul 2024*
+* **Product Manager**, Yangtze Memory Technologies Co., Ltd. (YMTC) FDC Team – Hongzhiwei, Wuhan — *Jan 2023 – Jul 2024*
 * **Data Scientist**, Perry Ellis International, Doral, FL — *Jun 2019 – Jun 2020*
 
 Education

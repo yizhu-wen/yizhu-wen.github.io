@@ -28,7 +28,7 @@ Professional Experience
   * Analyzed wafer-map data using DBSCAN to localize spatial defect patterns, and developed a CNN-based wafer-map classifier for automated defect identification.
   * Designed the architecture and interactive interface for a yield-analysis platform supporting production-data analysis, visualization, and yield investigation.
 
-**Product Manager** — YMTC FDC Team – Hongzhiwei, Wuhan, China · *Jan 2023 – Jul 2024*
+**Product Manager** — Yangtze Memory Technologies Co., Ltd. (YMTC) FDC Team – Hongzhiwei, Wuhan, China · *Jan 2023 – Jul 2024*
   * Designed the architecture and interactive interface for a Yield Management System supporting production-data analysis, visualization, and yield investigation.
   * Built a Defect Management System (DMS) and a Wafer Classification System.
   * Identified manufacturing and yield trends by analyzing wafer-defect maps and WIP/CP/FT data under the visualization modules.
