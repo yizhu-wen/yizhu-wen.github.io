@@ -46,8 +46,6 @@ Education
 
 Selected Publications
 ======
-A full list is on the [Publications]({{ site.baseurl }}/publications/) page.
-
 **SoK: Is Audio Watermarking Robust to Removal Attacks?** [[arXiv](https://arxiv.org/abs/2503.19176)] [[Project](https://sokaudiowm.github.io/)] [[Code](https://github.com/yizhu-wen/sok)]  
 **Yizhu Wen**, Ashwin Innuganti, Aaron Bien Ramos, Hanqing Guo, Qiben Yan  
 *Under review*
