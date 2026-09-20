@@ -27,7 +27,6 @@ Research Interests
 ======
 * **AI agent & RAG security** — knowledge poisoning, prompt injection, permission-aware retrieval, human-presence verification
 * **Audio & speech security** — watermarking robustness, real-time speech provenance, adversarial attacks on ASR
-* **AI governance & data protection** — web IP protection against unauthorized LLM retrieval, generative engine optimization
 
 Professional Experience
 ======
