@@ -31,6 +31,13 @@ Research Interests
 * **Audio & speech security** — watermarking robustness, real-time speech provenance, adversarial attacks on ASR
 * **AI governance & data protection** — web IP protection against unauthorized LLM retrieval, generative engine optimization
 
+Professional Experience
+======
+* **Research Intern**, USC Information Sciences Institute, Marina Del Rey, CA — *Jun 2026 – Aug 2026*
+* **Data Scientist**, Joint Laboratory of Materials Science, Xi'an Jiaotong University – Shanghai Hongzhiwei — *Jan 2022 – Jul 2024*
+* **Product Manager**, YMTC FDC Team – Hongzhiwei, Wuhan — *Jan 2023 – Jul 2024*
+* **Data Scientist**, Perry Ellis International, Doral, FL — *Jun 2019 – Jun 2020*
+
 Education
 ======
 * **Ph.D. in Computer Science**, Indiana University Bloomington — *Aug 2026 – Present*
@@ -38,13 +45,6 @@ Education
 * **M.S. in Business Analytics**, University of Miami — *Jul 2018 – Sep 2019* (GPA 3.64/4.00)
 * **B.A. (Hons) in Accounting and Finance**, University of the West of England — *Aug 2016 – Jun 2018* (GPA 3.71/4.00)
 * **B.E. in Finance**, Guangdong University of Finance — *Sep 2014 – Jun 2018* (GPA 3.40/4.00)
-
-Experience
-======
-* **Research Intern**, USC Information Sciences Institute, Marina Del Rey, CA — *Jun 2026 – Aug 2026*
-* **Data Scientist**, Joint Laboratory of Materials Science, Xi'an Jiaotong University – Shanghai Hongzhiwei — *Jan 2022 – Jul 2024*
-* **Product Manager**, YMTC FDC Team – Hongzhiwei, Wuhan — *Jan 2023 – Jul 2024*
-* **Data Scientist**, Perry Ellis International, Doral, FL — *Jun 2019 – Jun 2020*
 
 Selected Publications
 ======

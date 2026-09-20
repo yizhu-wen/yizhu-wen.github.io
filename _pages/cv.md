@@ -15,14 +15,6 @@ Research Interests
 ======
 AI security — the security of AI agents and retrieval-augmented generation (RAG) systems, data governance, adversarial attacks and practical defenses, and audio watermarking.
 
-Education
-======
-* **Ph.D. in Computer Science**, Indiana University Bloomington, Bloomington, USA — *Aug 2026 – Present*
-* **Ph.D. in Electrical and Computer Engineering**, University of Hawaiʻi at Mānoa, Honolulu, USA — *Aug 2024 – Aug 2026*, GPA 4.00/4.00
-* **M.S. in Business Analytics**, University of Miami, Miami, USA — *Jul 2018 – Sep 2019*, GPA 3.64/4.00
-* **B.A. (Hons) in Accounting and Finance**, University of the West of England, Bristol, UK — *Aug 2016 – Jun 2018*, GPA 3.71/4.00
-* **B.E. in Finance**, Guangdong University of Finance, Guangzhou, China — *Sep 2014 – Jun 2018*, GPA 3.40/4.00
-
 Professional Experience
 ======
 
@@ -46,6 +38,14 @@ Professional Experience
   * Built ensemble sales forecasting models with Seasonal ARIMA and LSTM on Google Cloud Platform, reducing inventory costs by 12%.
   * Developed Bayesian sentiment analysis models using word-count and TF-IDF features to identify drivers of customer feedback.
   * Built ETL and automated ML prediction pipelines using Apache Beam and Google Cloud Dataflow, supporting scalable batch data processing and model deployment.
+
+Education
+======
+* **Ph.D. in Computer Science**, Indiana University Bloomington, Bloomington, USA — *Aug 2026 – Present*
+* **Ph.D. in Electrical and Computer Engineering**, University of Hawaiʻi at Mānoa, Honolulu, USA — *Aug 2024 – Aug 2026*, GPA 4.00/4.00
+* **M.S. in Business Analytics**, University of Miami, Miami, USA — *Jul 2018 – Sep 2019*, GPA 3.64/4.00
+* **B.A. (Hons) in Accounting and Finance**, University of the West of England, Bristol, UK — *Aug 2016 – Jun 2018*, GPA 3.71/4.00
+* **B.E. in Finance**, Guangdong University of Finance, Guangzhou, China — *Sep 2014 – Jun 2018*, GPA 3.40/4.00
 
 Publications
 ======
