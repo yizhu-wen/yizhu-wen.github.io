@@ -243,3 +243,20 @@
     }
   }
 }
+
+/*
+   Publication list spacing
+   ========================================================================== */
+
+/* Keep the last entry of a section clear of the next section heading. */
+.page__content {
+  .list__item + h1,
+  .list__item + h2,
+  .list__item + h3 {
+    margin-top: 2.5em;
+  }
+
+  .list__item + .list__item {
+    margin-top: 1.5em;
+  }
+}
