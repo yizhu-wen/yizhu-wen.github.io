@@ -1,31 +1,53 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Yizhu Wen — Personal Homepage
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Source for [yizhu-wen.github.io/homepage](https://yizhu-wen.github.io/homepage), built with
+[Jekyll](https://jekyllrb.com/) on the [academicpages](https://github.com/academicpages/academicpages.github.io)
+template and published with GitHub Pages.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+## Where things live
 
-# Instructions
+| What | File |
+| --- | --- |
+| Site settings, name, social links | `_config.yml` |
+| Home page (bio, news, education, experience) | `_pages/about.md` |
+| Publications page (grouping + intro) | `_pages/publications.md` |
+| One file per paper | `_publications/YYYY-MM-DD-slug.md` |
+| CV page | `_pages/cv.md` |
+| CV download | `files/Yizhu_Wen_CV.docx` |
+| Top nav | `_data/navigation.yml` |
+| Profile photo | `images/profile.png` |
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## Adding a publication
 
-See more info at https://academicpages.github.io/
+Create `_publications/YYYY-MM-DD-slug.md`. The date controls ordering (newest first)
+and `pubtype` decides which section it lands in — use `preprint` for anything under
+review, anything else is listed as peer-reviewed.
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+```yaml
+---
+title: "Paper Title"
+collection: publications
+permalink: /publication/YYYY-MM-DD-slug
+excerpt: "One sentence about the paper."
+date: YYYY-MM-DD
+venue: "Full Venue Name (ABBR'YY)"
+venueshort: "ABBR'YY"
+authors: "**Yizhu Wen**, Co Author"
+pubtype: "conference"   # or "journal", or "preprint"
+links:
+  - label: "arXiv"
+    url: "https://arxiv.org/abs/..."
+  - label: "Code"
+    url: "https://github.com/..."
+paperurl: "https://arxiv.org/abs/..."
+---
+```
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+## Running locally
 
-# Changelog -- bugfixes and enhancements
+```bash
+bundle install
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
-
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+Then open <http://localhost:4000>. `_config.dev.yml` drops `baseurl` so local links resolve.

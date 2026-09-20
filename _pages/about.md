@@ -1,73 +1,71 @@
 ---
 permalink: /
-title: "Bio"
-excerpt: "About me"
+title: "About me"
+excerpt: "Yizhu Wen — Ph.D. student in Computer Science at Indiana University Bloomington, working on AI security."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a network software developer/researcher at Bytedance Inc. I received my Ph.D. degree at the Department of Electrical and Computer Engineering in University of California San Diego, where I was advised by [Professor Xinyu Zhang](http://xyzhang.ucsd.edu). I received my B.E. in Internet of Things engineering in 2018 from Beijing University of Posts and Telecommunications [(BUPT)](https://english.bupt.edu.cn), where I also worked as a research intern with [Professor Anfu Zhou](https://scs.bupt.edu.cn/info/1100/2285.htm).
+I am a Ph.D. student in Computer Science at **Indiana University Bloomington**. Before joining IU, I was a Ph.D. student in Electrical and Computer Engineering at the **University of Hawaiʻi at Mānoa**, where I worked with [Prof. Hanqing Guo](https://hanqingguo.github.io).
+
+My research is on **AI security** — in particular the security of AI agents and retrieval-augmented generation (RAG) systems, data governance, and **audio watermarking**. I study adversarial attacks on these systems and build practical defenses for them.
+
+Before returning to research, I spent several years in industry as a data scientist and product manager, working on semiconductor yield analytics and forecasting systems.
+
+📧 [yizhuwenus@gmail.com](mailto:yizhuwenus@gmail.com) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=1aegp6sAAAAJ&hl=en) &nbsp;·&nbsp; [GitHub](https://github.com/yizhu-wen) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/yizhuwen) &nbsp;·&nbsp; [CV]({{ site.baseurl }}/cv/)
 
 News
 ======
-Dec 2021. Our paper **NeuroMessenger: Towards Error Tolerant Distributed Machine Learning Over Edge Networks** is accepted by IEEE INFOCOM 2022.
+* **Aug 2026** — Started my Ph.D. in Computer Science at Indiana University Bloomington.
+* **Aug 2026** — Two papers accepted at **EdgeSP'26** (ACM/IEEE Workshop on Security and Privacy in Edge Computing): *EchoGuard* and *Ultrasound Watermark*.
+* **Jun 2026** — Began a research internship at the **USC Information Sciences Institute**, working on the SPHERE testbed.
+* **2026** — Position paper accepted at **ICML 2026** on the risks of Generative Engine Optimization.
+* **2026** — *Mental Damage* accepted at the **IEEE S&P 2026 ArtSec Workshop**.
+* **2025** — *Web Intellectual Property at Risk* accepted at **EMNLP 2025** (Main Conference).
 
-Sep 2021. Our paper **HiveMind: Towards Cellular Native Machine Learning Model Splitting** is accepted by IEEE JSAC.
+Research Interests
+======
+* **AI agent & RAG security** — knowledge poisoning, prompt injection, permission-aware retrieval, human-presence verification
+* **Audio & speech security** — watermarking robustness, real-time speech provenance, adversarial attacks on ASR
+* **AI governance & data protection** — web IP protection against unauthorized LLM retrieval, generative engine optimization
 
-Aug 2020. A first version of our [3D ray tracing code and data](http://m3.ucsd.edu/mmwave-v2x-testbed/) has been released.
-
-Jul 2020. Our paper **Demystifying Millimeter-Wave V2X: Towards Robust and Efficient Directional Connectivity Under High Mobility** is accepted by Mobicom’20
-
-Feb 2020. Our paper **X-Array: Approximating Omnidirectional Millimeter-Wave Coverage Using an Array of Phased Arrays** is accepted by Mobicom’20.
+Education
+======
+* **Ph.D. in Computer Science**, Indiana University Bloomington — *Aug 2026 – Present*
+* **Ph.D. in Electrical and Computer Engineering**, University of Hawaiʻi at Mānoa — *Aug 2024 – Aug 2026* (GPA 4.00/4.00)
+* **M.S. in Business Analytics**, University of Miami — *Jul 2018 – Sep 2019* (GPA 3.64/4.00)
+* **B.A. (Hons) in Accounting and Finance**, University of the West of England — *Aug 2016 – Jun 2018* (GPA 3.71/4.00)
+* **B.E. in Finance**, Guangdong University of Finance — *Sep 2014 – Jun 2018* (GPA 3.40/4.00)
 
 Experience
 ======
-Microsoft, the Office of the CTO team in Azure for Operators (AFO OCTO) (Internship, 6/2022-Present)  
-Advised by Manikanta Kotaru Xenofon Faukas
+* **Research Intern**, USC Information Sciences Institute, Marina Del Rey, CA — *Jun 2026 – Aug 2026*
+* **Data Scientist**, Joint Laboratory of Materials Science, Xi'an Jiaotong University – Shanghai Hongzhiwei — *Jan 2022 – Jul 2024*
+* **Product Manager**, YMTC FDC Team – Hongzhiwei, Wuhan — *Jan 2023 – Jul 2024*
+* **Data Scientist**, Perry Ellis International, Doral, FL — *Jun 2019 – Jun 2020*
 
-Sony Corporation Tokyo (Collaboration, 9/2020-5/2022)  
-Advised by Hiromasa Uchiyama  
-
-AT&T Research (Internship, 7/2019-9/2019)  
-Advised by Jin Wang  
-
-Publication
+Selected Publications
 ======
-**NeuroMessenger: Towards Error Tolerant Distributed Machine Learning Over Edge Networks**([PDF](http://sowang46.github.io/files/NeuroMessenger.pdf))   
-**S. Wang**, X. Zhang  
-IEEE International Conference on Computer Communications 2022 (INFOCOM'22) 
+A full list is on the [Publications]({{ site.baseurl }}/publications/) page.
 
-**HiveMind: Towards Cellular Native Machine Learning Model Splitting**([PDF](http://sowang46.github.io/files/hivemind.pdf))  
-**S. Wang**, X. Zhang, H. Uchiyama, H, Matsuda,  
-IEEE Journal on Selected Areas in Communications 2021 (JSAC) 
+**SoK: Is Audio Watermarking Robust to Removal Attacks?** [[arXiv](https://arxiv.org/abs/2503.19176)] [[Project](https://sokaudiowm.github.io/)] [[Code](https://github.com/yizhu-wen/sok)]  
+**Yizhu Wen**, Ashwin Innuganti, Aaron Bien Ramos, Hanqing Guo, Qiben Yan  
+*Under review, NDSS 2027*
 
-**Demystifying Millimeter-Wave V2X: Towards Robust and Efficient
-Directional Connectivity Under High Mobility**([PDF](http://sowang46.github.io/files/v2x.pdf))  
-**S. Wang**, J. Huang, X. Zhang,  
-ACM International Conference on Mobile Computing and Networking (MobiCom'20)  
-(62 out of 384 submissions, acceptance ratio: 16%)
-(Source code: [mmWave V2X 3D ray-tracing](http://m3.ucsd.edu/mmwave-v2x-testbed/))
+**Position: Generative Engine Optimization Creates Underexamined Risks, Governance Must Target Concentration, Disclosure, and Academic Blind Spots** [[arXiv](https://arxiv.org/abs/2606.12439)] [[Poster](https://icml.cc/virtual/2026/poster/67185)] [[Code](https://github.com/yizhu-wen/Position-GEO)]  
+**Yizhu Wen**, Nan Zhang, Haohan Yuan, Xun Chen, Haopeng Zhang, Hanqing Guo  
+*ICML 2026*
 
-**X-Array: Approximating Omnidirectional Millimeter-Wave Coverage Using an Array of Phased-Arrays**([PDF](http://sowang46.github.io/files/xarray.pdf))  
-**S. Wang**, J. Huang, X. Zhang, H. Kim, S. Dey,  
-ACM International Conference on Mobile Computing and Networking (MobiCom'20)  
-(62 out of 384 submissions, acceptance ratio: 16%)
+**Mental Damage: Caption Poisoning Attacks on Retrieval-Augmented Text-to-Music Generation** [[arXiv](https://arxiv.org/abs/2605.30365)] [[Program](https://artsec26.ieee-security.org/program.html)] [[Code](https://github.com/yizhu-wen/Mental-Damage)]  
+**Yizhu Wen**, Shuhao Zhang, Nan Zhang, Long Cheng, Hanqing Guo  
+*IEEE S&P 2026 Workshops (ArtSec)*
 
-**Robotic Millimeter-Wave Wireless Networks**([PDF](http://sowang46.github.io/files/robotic.pdf))  
-A. Zhou, S. Xu, **S. Wang**, J. Huang, S. Yang, T.Wei, X. Zhang; H, Ma, 
-IEEE/ACM Transactions on Networking (ToN'19)  
+**Web Intellectual Property at Risk: Preventing Unauthorized Real-Time Retrieval by Large Language Models** [[arXiv](https://arxiv.org/abs/2505.12655)]  
+Yisheng Zhong, **Yizhu Wen**, Junfeng Guo, Mehran Kafai, Heng Huang, Hanqing Guo, Zhuangdi Zhu  
+*EMNLP 2025 (Main Conference)*
 
-**Robot Navigation in Radio Beam Space: Leveraging Robotic Intelligence for Seamless mmWave Network Coverage**([PDF](http://sowang46.github.io/files/robot.pdf))  
-A. Zhou, S. Xu, **S. Wang**, J. Huang, S. Yang, T.Wei, X. Zhang; H, Ma, 
-ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc'19) 
-
-**KPad: Maximizing Channel Utilization for MU-MIMO Systems using
-Knapsack Padding**([PDF](http://sowang46.github.io/files/kpad.pdf))  
-**S. Wang**, J. Huang, A. Zhou,  
-IEEE International Conference on Communications 2018 Wireless Networking Symposium (ICC'18 WN)  
-
-CV
-=====
-[CV (PDF)](http://sowang46.github.io/files/CV_202211.pdf)
+**DiffImpute: Tabular Data Imputation with Denoising Diffusion Probabilistic Model** [[arXiv](https://arxiv.org/abs/2403.13863)] [[IEEE](https://www.computer.org/csdl/proceedings-article/icme/2024/10687685/20F0DOclXXO)]  
+**Yizhu Wen**, Kai Yi, Jing Ke, Yiqing Shen  
+*IEEE ICME 2024*

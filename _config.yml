@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Song Wang / Ph.D. candidate"
+title                    : "Yizhu Wen"
 title_separator          : "-"
-name                     : &name "Song Wang"
-description              : &description "PhD candidate at UC San Diego"
-url                      : https://sowang46.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sowang46"
+name                     : &name "Yizhu Wen"
+description              : &description "Ph.D. student in Computer Science at Indiana University Bloomington, working on AI security."
+url                      : https://yizhu-wen.github.io # the base hostname & protocol for your site
+baseurl                  : "/homepage" # the subpath of your site, e.g. "/blog"
+repository               : "yizhu-wen/homepage"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Song Wang"
+  name             : "Yizhu Wen"
   avatar           : "profile.png"
-  bio              : "Ph.D. candidate at UC San Diego"
-  location         : "San Diego, California"
-  employer         :
+  bio              : "Ph.D. student in Computer Science, Indiana University Bloomington. AI security: agents, RAG, and audio watermarking."
+  location         : "Bloomington, Indiana"
+  employer         : "Indiana University Bloomington"
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=48BREgcAAAAJ&hl=en"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=1aegp6sAAAAJ&hl=en"
+  email            : "yizhuwenus@gmail.com"
+  researchgate     : "https://www.researchgate.net/profile/Yizhu-Wen"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "sowang46"
+  github           : "yizhu-wen"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "yizhuwen"
   orcid            :
   pinterest        :
   soundcloud       :
@@ -175,16 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -209,15 +200,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -227,23 +209,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
@@ -255,7 +220,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Indiana/Indianapolis # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

@@ -5,12 +5,23 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+You can also find my work on my <u><a href="{{ site.author.googlescholar }}">Google Scholar profile</a></u>.
+
+
+Peer-reviewed
+======
+
+{% assign reviewed = site.publications | where_exp: "post", "post.pubtype != 'preprint'" | sort: "date" | reverse %}
+{% for post in reviewed %}
+  {% include archive-single-publication.html %}
+{% endfor %}
+
+Preprints & Under Review
+======
+
+{% assign preprints = site.publications | where: "pubtype", "preprint" | sort: "date" | reverse %}
+{% for post in preprints %}
+  {% include archive-single-publication.html %}
 {% endfor %}
