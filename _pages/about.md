@@ -45,6 +45,14 @@ Education
 
 Selected Publications
 ======
+**EchoGuard: Continuous Ultrasound-based Human Presence Verification Against AI Agents**  
+**Yizhu Wen**, Dharani Nadendla, Shirui Cao, Renzhi Hao, Dong Li, Hanqing Guo  
+*EdgeSP 2026*
+
+**Ultrasound Watermark: Real-time Acoustic Watermarking against Voice Scams on Smartphones**  
+Renzhi Hao, Shirui Cao, **Yizhu Wen**, Rishav Gupta, Dharani Nadendla, Mehran Kafai, Hanqing Guo, Dong Li  
+*EdgeSP 2026*
+
 **SoK: Is Audio Watermarking Robust to Removal Attacks?** [[arXiv](https://arxiv.org/abs/2503.19176)] [[Project](https://sokaudiowm.github.io/)] [[Code](https://github.com/yizhu-wen/sok)]  
 **Yizhu Wen**, Ashwin Innuganti, Aaron Bien Ramos, Hanqing Guo, Qiben Yan  
 *Under review*
