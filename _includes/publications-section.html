@@ -8,20 +8,10 @@
   Preprints (pubtype: preprint) are grouped first, the rest by year.
 {% endcomment %}
 
-{% assign gs_base = "https://raw.githubusercontent.com/" | append: site.repository | append: "/google-scholar-stats/" %}
-{% assign gs_citations = gs_base | append: "gs_data_shieldsio.json" | url_encode %}
-{% assign gs_hindex = gs_base | append: "gs_hindex_shieldsio.json" | url_encode %}
-
 <div id="publications-section" class="pub-section">
   <h1 id="publications" class="pub-heading">
     Publications
     <span class="pub-filter">(<a href="#publications" id="pub-show-selected">show selected</a> / <a href="#publications" id="pub-show-all">show by date</a>)</span>
-    {% if site.google_scholar_id and site.author.googlescholar %}
-      <span class="pub-stats">
-        <a href="{{ site.author.googlescholar }}" rel="external nofollow noopener" target="_blank" aria-label="Google Scholar citations"><img src="https://img.shields.io/endpoint?url={{ gs_citations }}&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=52adc8&amp;style=flat" alt="Total Google Scholar citations"></a>
-        <a href="{{ site.author.googlescholar }}" rel="external nofollow noopener" target="_blank" aria-label="Google Scholar h-index"><img src="https://img.shields.io/endpoint?url={{ gs_hindex }}&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=52adc8&amp;style=flat" alt="Google Scholar h-index"></a>
-      </span>
-    {% endif %}
   </h1>
 
   {% assign all_pubs = site.publications | sort: "date" | reverse %}
