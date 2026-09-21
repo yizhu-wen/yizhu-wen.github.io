@@ -1,0 +1,305 @@
+/* ==========================================================================
+   Site customizations
+
+   Layout, chrome and content components layered on top of the theme. Imported
+   last so these rules win over the theme defaults without needing !important.
+
+   Breakpoints are written as raw media queries to match the em values the
+   theme itself compiles to (57.8125em = 925px, 80em = 1280px).
+   ========================================================================== */
+
+/*
+   Chrome
+   ========================================================================== */
+
+a {
+  text-decoration: none;
+}
+
+/* masthead stays put while the page scrolls */
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: $background-color;
+}
+
+.wrapper,
+.masthead__inner-wrap {
+  max-width: 1280px;
+}
+
+#main {
+  margin-top: 105px; /* clears the fixed masthead */
+}
+
+/* body copy holds at 16px instead of scaling with the 18px root */
+.page__content {
+  font-size: 16px;
+}
+
+/* wider text column: the theme reserves room for a right sidebar we don't use */
+.page {
+  padding-right: 4%;
+}
+
+/* anchored headings stop below the fixed masthead */
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  scroll-margin-top: 90px;
+}
+
+h1.author__name {
+  font-size: inherit;
+  margin: 0;
+}
+
+.page__footer {
+  margin-top: 1em;
+}
+
+.page__footer footer {
+  margin-top: 0;
+  padding: 0.3em 1em;
+}
+
+/*
+   Sidebar — fixed beside the content when there is room, centered above it
+   when there isn't
+   ========================================================================== */
+
+.sidebar {
+  margin-top: 70px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media (min-width: 57.8125em) {
+  .sidebar {
+    position: fixed;
+    top: 95px;
+    /* interpolated so Sass leaves the nested calc() intact */
+    left: #{"max(1em, calc((100vw - 925px) / 2 + 1em))"};
+    width: 200px;
+    margin-top: 0;
+    padding: 0.5em 0 0;
+    background: $background-color;
+    z-index: 19;
+
+    .author__content {
+      padding-top: 15px;
+      padding-left: 15px;
+    }
+
+    .author__urls-wrapper {
+      padding-left: 15px;
+    }
+  }
+
+  /* keep the text column clear of the fixed sidebar */
+  .page {
+    padding-left: #{"max(4.2372881356%, calc(220px - 16.95%))"};
+  }
+}
+
+@media (min-width: 80em) {
+  .sidebar {
+    left: calc((100vw - 1280px) / 2 + 1em);
+  }
+}
+
+@media (max-width: 57.75em) {
+  #main {
+    margin-top: 0;
+  }
+
+  .sidebar {
+    margin-top: 90px;
+    text-align: center;
+  }
+
+  .author__avatar {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .author__content {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .author__name {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+
+  .author__urls-wrapper {
+    display: block;
+    text-align: center;
+
+    button {
+      display: none;
+    }
+  }
+
+  /* the collapsible link menu becomes a plain centered row */
+  .author__urls {
+    display: flex !important;
+    position: relative !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px 12px;
+    margin: 5px 0 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+
+    &:before,
+    &:after {
+      display: none !important;
+    }
+
+    li {
+      display: inline-block;
+      font-size: 0.85em;
+    }
+  }
+}
+
+/*
+   Publication entries
+   ========================================================================== */
+
+.pub-list {
+  margin-top: 0.3em;
+  padding-left: 0;
+  list-style: none;
+
+  > li {
+    list-style: none;
+    margin-bottom: 1.5em;
+  }
+}
+
+.pub-item {
+  margin-bottom: 1.5em;
+}
+
+.pub-banner {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  font-family: $sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  color: mix(#000, $gray, 45%);
+  background: #e8e8eb;
+  border-radius: $border-radius;
+
+  /* for entries worth calling out */
+  &--highlight {
+    color: mix(#000, $link-color, 30%);
+    background: mix(#fff, $link-color, 85%);
+  }
+}
+
+.pub-title {
+  margin: 0 0 0.2em;
+  font-family: $sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.pub-authors {
+  margin: 0 0 0.2em;
+  line-height: 1.4;
+
+  a {
+    color: $text-color;
+  }
+
+  b,
+  strong {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+.pub-venue {
+  margin: 0 0 0.3em;
+  font-style: italic;
+}
+
+.pub-links {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/*
+   Experience & education entries
+   ========================================================================== */
+
+.exp-list {
+  margin-top: 0.3em;
+  padding-left: 0;
+  list-style: none;
+
+  > li {
+    list-style: none;
+    margin-bottom: 0.8em;
+    padding-left: 0.8em;
+    border-left: 3px solid $link-color;
+  }
+}
+
+.exp-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.exp-org {
+  font-weight: 700;
+}
+
+.exp-date {
+  color: $gray;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.exp-role {
+  margin-top: 0.1em;
+}
+
+.exp-desc {
+  color: mix(#fff, $text-color, 15%);
+  font-size: 0.95em;
+}
+
+.exp-bullets {
+  margin-top: 0.3em;
+  padding-left: 1.2em;
+  list-style: disc;
+  font-size: 0.95em;
+
+  > li {
+    margin-bottom: 0.15em;
+    line-height: 1.45;
+  }
+}
