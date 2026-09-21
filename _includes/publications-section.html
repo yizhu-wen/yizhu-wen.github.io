@@ -1,0 +1,91 @@
+{% include base_path %}
+
+{% comment %}
+  Publication list with a "show selected / show by date" filter.
+
+  Entries come from the _publications collection. Mark the ones that should
+  appear in the selected view with `selected: true` in their front matter.
+  Preprints (pubtype: preprint) are grouped first, the rest by year.
+{% endcomment %}
+
+{% assign gs_base = "https://raw.githubusercontent.com/" | append: site.repository | append: "/google-scholar-stats/" %}
+{% assign gs_citations = gs_base | append: "gs_data_shieldsio.json" | url_encode %}
+{% assign gs_hindex = gs_base | append: "gs_hindex_shieldsio.json" | url_encode %}
+
+<div id="publications-section" class="pub-section">
+  <h1 id="publications" class="pub-heading">
+    Publications
+    <span class="pub-filter">(<a href="#publications" id="pub-show-selected">show selected</a> / <a href="#publications" id="pub-show-all">show by date</a>)</span>
+    {% if site.google_scholar_id and site.author.googlescholar %}
+      <span class="pub-stats">
+        <a href="{{ site.author.googlescholar }}" rel="external nofollow noopener" target="_blank" aria-label="Google Scholar citations"><img src="https://img.shields.io/endpoint?url={{ gs_citations }}&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=52adc8&amp;style=flat" alt="Total Google Scholar citations"></a>
+        <a href="{{ site.author.googlescholar }}" rel="external nofollow noopener" target="_blank" aria-label="Google Scholar h-index"><img src="https://img.shields.io/endpoint?url={{ gs_hindex }}&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=52adc8&amp;style=flat" alt="Google Scholar h-index"></a>
+      </span>
+    {% endif %}
+  </h1>
+
+  {% assign all_pubs = site.publications | sort: "date" | reverse %}
+  {% assign preprints = all_pubs | where: "pubtype", "preprint" %}
+  {% assign published = all_pubs | where_exp: "post", "post.pubtype != 'preprint'" %}
+
+  {% if preprints.size > 0 %}
+    <div class="pub-group">
+      <h3 class="pub-year">Preprints &amp; Under Review</h3>
+      <ul class="pub-list">
+        {% for post in preprints %}
+          {% include publications-item.html post=post %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% assign by_year = published | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in by_year %}
+    <div class="pub-group">
+      <h3 class="pub-year">{{ year.name }}</h3>
+      <ul class="pub-list">
+        {% for post in year.items %}
+          {% include publications-item.html post=post %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  (function () {
+    var section = document.getElementById('publications-section');
+    if (!section) return;
+
+    var selectedBtn = document.getElementById('pub-show-selected');
+    var allBtn = document.getElementById('pub-show-all');
+    var groups = section.querySelectorAll('.pub-group');
+
+    function render(selectedOnly) {
+      selectedBtn.classList.toggle('is-active', selectedOnly);
+      allBtn.classList.toggle('is-active', !selectedOnly);
+
+      for (var i = 0; i < groups.length; i++) {
+        var group = groups[i];
+        var items = group.querySelectorAll('.pub-list > li');
+        var shown = 0;
+
+        for (var j = 0; j < items.length; j++) {
+          var visible = !selectedOnly || items[j].getAttribute('data-selected') === 'true';
+          items[j].style.display = visible ? '' : 'none';
+          if (visible) shown++;
+        }
+
+        /* the selected view is one flat list, so its year headings go away */
+        var heading = group.querySelector('.pub-year');
+        if (heading) heading.style.display = selectedOnly ? 'none' : '';
+        group.style.display = shown > 0 ? '' : 'none';
+      }
+    }
+
+    selectedBtn.addEventListener('click', function (e) { e.preventDefault(); render(true); });
+    allBtn.addEventListener('click', function (e) { e.preventDefault(); render(false); });
+
+    render(true);
+  })();
+</script>

@@ -7,6 +7,7 @@ date: 2024-07-15
 venue: "IEEE International Conference on Multimedia and Expo (ICME'24)"
 venueshort: "ICME'24"
 authors: "**Yizhu Wen**, Kai Yi, Jing Ke, Yiqing Shen"
+selected: true
 pubtype: "conference"
 links:
   - label: "arXiv"

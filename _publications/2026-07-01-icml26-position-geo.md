@@ -7,6 +7,7 @@ date: 2026-07-01
 venue: "International Conference on Machine Learning (ICML'26)"
 venueshort: "ICML'26"
 authors: "**Yizhu Wen**, Nan Zhang, Haohan Yuan, Xun Chen, Haopeng Zhang, Hanqing Guo"
+selected: true
 pubtype: "conference"
 links:
   - label: "arXiv"

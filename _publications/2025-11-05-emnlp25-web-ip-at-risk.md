@@ -7,6 +7,7 @@ date: 2025-11-05
 venue: "Conference on Empirical Methods in Natural Language Processing, Main Conference (EMNLP'25)"
 venueshort: "EMNLP'25"
 authors: "Yisheng Zhong, **Yizhu Wen**, Junfeng Guo, Mehran Kafai, Heng Huang, Hanqing Guo, Zhuangdi Zhu"
+selected: true
 pubtype: "conference"
 links:
   - label: "arXiv"

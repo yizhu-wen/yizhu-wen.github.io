@@ -7,6 +7,7 @@ date: 2026-05-01
 venue: "IEEE Symposium on Security and Privacy Workshops, ArtSec (IEEE S&P'26 Workshops)"
 venueshort: "IEEE S&P'26 Workshops"
 authors: "**Yizhu Wen**, Shuhao Zhang, Nan Zhang, Long Cheng, Hanqing Guo"
+selected: true
 pubtype: "conference"
 links:
   - label: "arXiv"

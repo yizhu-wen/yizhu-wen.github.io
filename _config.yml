@@ -78,6 +78,11 @@ analytics:
     tracking_id          :
 
 
+# Google Scholar stats
+# The badges read the numbers from the google-scholar-stats branch, which
+# .github/workflows/google_scholar_crawler.yaml refreshes daily.
+google_scholar_id        : "1aegp6sAAAAJ"
+
 # Site Author
 author:
   name             : "Yizhu Wen"
@@ -140,6 +145,7 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - config
+  - google_scholar_crawler
   - gulpfile.js
   - log
   - node_modules

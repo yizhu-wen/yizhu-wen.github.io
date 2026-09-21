@@ -180,6 +180,46 @@ h1.author__name {
    Publication entries
    ========================================================================== */
 
+.pub-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+/* show selected / show by date */
+.pub-filter {
+  font-family: $sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: $light-gray;
+
+  a {
+    color: mix(#fff, $gray, 15%);
+
+    &.is-active {
+      font-weight: bold;
+      color: $link-color;
+    }
+  }
+}
+
+/* Google Scholar citation & h-index badges */
+.pub-stats {
+  a {
+    margin-left: 2px;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+}
+
+.pub-year {
+  margin: 1.2em 0 0.6em;
+  font-size: $type-size-4;
+}
+
 .pub-list {
   margin-top: 0.3em;
   padding-left: 0;

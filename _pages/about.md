@@ -106,41 +106,4 @@ Education
   </li>
 </ul>
 
-Selected Publications
-======
-<ul class="pub-list">
-  <li>
-    <div class="pub-banner">EdgeSP 2026</div>
-    <div class="pub-title">EchoGuard: Continuous Ultrasound-based Human Presence Verification Against AI Agents</div>
-    <div class="pub-authors"><b>Yizhu Wen</b>, Dharani Nadendla, Shirui Cao, Renzhi Hao, Dong Li, Hanqing Guo</div>
-  </li>
-  <li>
-    <div class="pub-banner">EdgeSP 2026</div>
-    <div class="pub-title">Ultrasound Watermark: Real-time Acoustic Watermarking against Voice Scams on Smartphones</div>
-    <div class="pub-authors">Renzhi Hao, Shirui Cao, <b>Yizhu Wen</b>, Rishav Gupta, Dharani Nadendla, Mehran Kafai, Hanqing Guo, Dong Li</div>
-  </li>
-  <li>
-    <div class="pub-banner">ICML 2026</div>
-    <div class="pub-title">Position: Generative Engine Optimization Creates Underexamined Risks, Governance Must Target Concentration, Disclosure, and Academic Blind Spots</div>
-    <div class="pub-authors"><b>Yizhu Wen</b>, Nan Zhang, Haohan Yuan, Xun Chen, Haopeng Zhang, Hanqing Guo</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2606.12439">[arXiv]</a> <a href="https://icml.cc/virtual/2026/poster/67185">[Poster]</a> <a href="https://github.com/yizhu-wen/Position-GEO">[Code]</a></div>
-  </li>
-  <li>
-    <div class="pub-banner">IEEE S&amp;P 2026 Workshops (ArtSec)</div>
-    <div class="pub-title">Mental Damage: Caption Poisoning Attacks on Retrieval-Augmented Text-to-Music Generation</div>
-    <div class="pub-authors"><b>Yizhu Wen</b>, Shuhao Zhang, Nan Zhang, Long Cheng, Hanqing Guo</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2605.30365">[arXiv]</a> <a href="https://artsec26.ieee-security.org/program.html">[Program]</a> <a href="https://github.com/yizhu-wen/Mental-Damage">[Code]</a></div>
-  </li>
-  <li>
-    <div class="pub-banner">EMNLP 2025 (Main Conference)</div>
-    <div class="pub-title">Web Intellectual Property at Risk: Preventing Unauthorized Real-Time Retrieval by Large Language Models</div>
-    <div class="pub-authors">Yisheng Zhong, <b>Yizhu Wen</b>, Junfeng Guo, Mehran Kafai, Heng Huang, Hanqing Guo, Zhuangdi Zhu</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2505.12655">[arXiv]</a></div>
-  </li>
-  <li>
-    <div class="pub-banner">IEEE ICME 2024</div>
-    <div class="pub-title">DiffImpute: Tabular Data Imputation with Denoising Diffusion Probabilistic Model</div>
-    <div class="pub-authors"><b>Yizhu Wen</b>, Kai Yi, Jing Ke, Yiqing Shen</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2403.13863">[arXiv]</a> <a href="https://www.computer.org/csdl/proceedings-article/icme/2024/10687685/20F0DOclXXO">[IEEE]</a></div>
-  </li>
-</ul>
+{% include publications-section.html %}

@@ -1,0 +1,24 @@
+{% comment %}
+  One publication entry. Expects `post` (a _publications document).
+  `data-selected` drives the show selected / show by date filter.
+{% endcomment %}
+
+<li data-selected="{% if include.post.selected %}true{% else %}false{% endif %}">
+  {% if include.post.venueshort or include.post.venue %}
+    <div class="pub-banner{% if include.post.highlight %} pub-banner--highlight{% endif %}">{{ include.post.venueshort | default: include.post.venue }}</div>
+  {% endif %}
+
+  <div class="pub-title"><a href="{{ base_path }}{{ include.post.url }}">{{ include.post.title }}</a></div>
+
+  {% if include.post.authors %}
+    <div class="pub-authors">{{ include.post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</div>
+  {% endif %}
+
+  <div class="pub-venue">{{ include.post.venue }}</div>
+
+  {% if include.post.links %}
+    <div class="pub-links">
+      {% for link in include.post.links %}<a href="{{ link.url }}">[{{ link.label }}]</a>&nbsp;{% endfor %}
+    </div>
+  {% endif %}
+</li>
