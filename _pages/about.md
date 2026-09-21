@@ -16,8 +16,8 @@ Before returning to research, I **spent 5 years in industry as a data scientist 
 
 News
 ======
-* **Aug 2026** — Started my Ph.D. in Computer Science at Indiana University Bloomington.
 * **Aug 2026** — Two papers accepted at **EdgeSP'26** (ACM/IEEE Workshop on Security and Privacy in Edge Computing): *EchoGuard* and *Ultrasound Watermark*.
+* **Aug 2026** — Started my Ph.D. in Computer Science at Indiana University Bloomington.
 * **Jun 2026** — Began a research internship at the **USC Information Sciences Institute**, working on the SPHERE testbed.
 * **2026** — Position paper accepted at **ICML 2026** on the risks of Generative Engine Optimization.
 * **2026** — *Mental Damage* accepted at the **IEEE S&P 2026 ArtSec Workshop**.
@@ -52,10 +52,6 @@ Selected Publications
 **Ultrasound Watermark: Real-time Acoustic Watermarking against Voice Scams on Smartphones**  
 Renzhi Hao, Shirui Cao, **Yizhu Wen**, Rishav Gupta, Dharani Nadendla, Mehran Kafai, Hanqing Guo, Dong Li  
 *EdgeSP 2026*
-
-**SoK: Is Audio Watermarking Robust to Removal Attacks?** [[arXiv](https://arxiv.org/abs/2503.19176)] [[Project](https://sokaudiowm.github.io/)] [[Code](https://github.com/yizhu-wen/sok)]  
-**Yizhu Wen**, Ashwin Innuganti, Aaron Bien Ramos, Hanqing Guo, Qiben Yan  
-*Under review*
 
 **Position: Generative Engine Optimization Creates Underexamined Risks, Governance Must Target Concentration, Disclosure, and Academic Blind Spots** [[arXiv](https://arxiv.org/abs/2606.12439)] [[Poster](https://icml.cc/virtual/2026/poster/67185)] [[Code](https://github.com/yizhu-wen/Position-GEO)]  
 **Yizhu Wen**, Nan Zhang, Haohan Yuan, Xun Chen, Haopeng Zhang, Hanqing Guo  
