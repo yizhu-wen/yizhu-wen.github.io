@@ -158,6 +158,44 @@
   }
 }
 
+/* next/previous post links */
+.pagination--post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5em;
+
+  /* the inherited clearfix would become a stray flex item */
+  &::after {
+    display: none;
+  }
+
+  .pagination--pager {
+    display: inline-block;
+    float: none;
+    width: auto;
+    margin: 0;
+    padding: 0.5em 1.25em;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    font-weight: bold;
+    text-align: center;
+    color: $link-color;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+
+    &:hover {
+      color: #fff;
+      background: $link-color;
+      border-color: $link-color;
+    }
+  }
+
+  .pagination--next {
+    margin-left: auto;
+  }
+}
+
 .page__content + .pagination,
 .page__meta + .pagination,
 .page__share + .pagination,
